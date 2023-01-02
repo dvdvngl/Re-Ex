@@ -63,8 +63,8 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           token: ${{ github.token }}
-          name: Re Ex ${{ env.VS }}
-          tag_name: V${{ env.VS }}
+          name: Tiktok ${{ env.VST }}
+          tag_name: TV${{ env.VST }}
           files: upload/*
   build3:
     name: 'Complete'
