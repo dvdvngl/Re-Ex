@@ -34,7 +34,9 @@ jobs:
           token: ${{ github.token }}
           name: Re Ex ${{ env.VS }}
           tag_name: V${{ env.VS }}
-          files: upload/*
+          files: |
+            upload/*
+            microg.apk
   build2:
     name: 'Tiktok'
     runs-on: ubuntu-latest
