@@ -34,7 +34,7 @@ jobs:
           token: ${{ github.token }}
           name: Re Ex ${{ env.VS }}
           tag_name: V${{ env.VS }}
-          files: Up/*
+          files: upload/*
   build2:
     name: 'Tiktok'
     runs-on: ubuntu-latest
@@ -65,7 +65,7 @@ jobs:
           token: ${{ github.token }}
           name: Re Ex ${{ env.VS }}
           tag_name: V${{ env.VS }}
-          files: Up/*
+          files: upload/*
   build3:
     name: 'Complete'
     runs-on: ubuntu-latest
